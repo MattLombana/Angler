@@ -1,0 +1,7 @@
+{% extends "header.html" %}
+{% block content %}
+    {% for strike in nibbles %}
+    <div class='fish'><p>{{ strike }}</p></div>
+    <hr>
+    {% endfor %}
+{% endblock %}

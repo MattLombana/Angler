@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+hr {
+    max-width: 75%;
+}
+
+p {
+    text-align: left;
+}
+
+.fish {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    max-width: 75%;
+    margin: auto;
+}
+
+#content {
+    max-width: 75%;
+    margin: auto;
+}
