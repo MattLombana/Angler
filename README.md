@@ -1,5 +1,6 @@
 
 # Angler
+
 Angler: A Simple Web Hook For Saving And Viewing URL Requests
 
 ## Installing Angler
@@ -22,3 +23,9 @@ You can edit the port that Angler runs on by editing it in `run.py`
 ```shell
 ./run.py
 ```
+
+## Using Angler
+
+View all requests by visiting either `/` or `/release`
+Create a request by visiting `/catch` with something added to the end of `catch`
+For example, to log ?foo=bar, I would visit `localhost:5000/catch?foo=bar`
